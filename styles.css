@@ -1,106 +1,75 @@
+/* Reset básico */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* border: 1px solid red; */
 }
 
+/* Estilos generales */
 body {
-  background: url(./media/wallpaperbetter.jpg) fixed no-repeat; /*Cambiar*/
-  width: 90vw;
-  margin-top: 5vh;
+  font-family: 'Georgia', serif;
+  background-color: #f8f9fa;
+  color: #333;
+  width: 85vw;
+  margin: 20px auto;
+  line-height: 1.6;
 }
 
-nav {
-  height: 95vh;
-  width: 15vw;
-  list-style-type: none;
-  overflow: auto;
-  border-radius: 8px 0px 0px 8px;
-  background-color: #bad9d3; /*Cambiar*/
-}
-
+/* Estilos del encabezado */
 header {
   text-align: center;
-  height: 5%;
-  background-color: #a0c4f2; /*Cambiar*/
-  display: flex;
-  justify-content: space-around;
-  border-radius: 0 8px 0 0;
+  background-color: #e9ecef;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  margin: unset;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2.5rem;
 }
 
 h2 {
-  height: 50px;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #adb5bd;
+  padding-bottom: 5px;
+  margin-top: 20px;
 }
 
-h3 {
-  height: 45px;
+/* Navegación */
+nav {
+  width: 20%;
+  float: left;
+  background-color: #dee2e6;
+  padding: 15px;
+  border-radius: 8px;
+  position: fixed;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Contenedor principal */
+main {
+  width: 75%;
+  float: right;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding: 8px;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
-  display: block;
-}
-
-li a {
-  display: block;
-  text-decoration: none;
-  color: #000;
-  padding: 8px 16px;
-}
-li a:hover {
-  background-color: #a7cff2bd; /*Cambiar*/
-  transition: 0.5s;
-}
-
-#parent {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-#container {
-  height: 90vh;
-  background-color: #a7cff2; /*Cambiar*/
-  border-radius: 0 8px 8px 0;
-  width: 60vw;
-  overflow-y: auto;
-}
-
-section {
-  border-radius: 5px;
-  margin: 15px 20px;
-}
-
-#section1 {
-  margin-top: 2%;
-}
-
-#indice {
-  /* Marcar psemi-clase:target  */
-  display: block;
-  text-decoration: none;
-  padding: 8px 16px;
-  color: white;
-  background-color: #335928b6; /*Cambiar*/
+  margin-bottom: 15px;
 }
