@@ -54,10 +54,14 @@ nav a {
   text-decoration: none;
   color: #007bff;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #dee2e6;
+  transition: 0.3s;
 }
 
 /* Contenedor principal */
