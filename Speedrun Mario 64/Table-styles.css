@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, #f0f8ff 0%, #e6f0fa 100%);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    border-bottom: 3px solid #1e90ff;
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #2c3e50;
+    color: white;
+    font-size: 1.1em;
+}
+
+th {
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f0f7ff;
+}
+
+img {
+    vertical-align: middle;
+    max-height: 30px;
+}
+
+.primero {
+    background-color: rgba(255, 215, 0, 0.1);
+    font-weight: bold;
+}
+
+.segundo {
+    background-color: rgba(192, 192, 192, 0.1);
+}
+
+.tercero {
+    background-color: rgba(205, 127, 50, 0.1);
+}
+
+.bandera {
+    width: 24px;
+    height: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.medalla {
+    width: 24px;
+    height: 24px;
+}
+
+.tiempo {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.nombre {
+    font-weight: bold;
+    color: #1e90ff;
+}
+
+.fecha {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.volver {
+    display: inline-block;
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.volver:hover {
+    background-color: #2c3e50;
+}
